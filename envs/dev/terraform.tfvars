@@ -1,5 +1,5 @@
 aws_region     = "us-east-1"
-ami_id         = "ami-0c55b159cbfafe1f0"
+ami_id         = "ami-0157af9aea2eef346"
 instance_type  = "t2.micro"
 key_name       = "dev-key"
 environment    = "dev"
