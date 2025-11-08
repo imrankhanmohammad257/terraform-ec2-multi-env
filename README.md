@@ -49,6 +49,39 @@ terraform-ec2-multi-env/
 
 ---
 
+## 📂 Folder Structure
+
+terraform-ec2-multi-env/
+├── README.md
+│
+├── envs/
+│ ├── dev/
+│ │ ├── backend.tf
+│ │ ├── main.tf
+│ │ ├── variables.tf
+│ │ └── dev.tfvars
+│ │
+│ ├── test/
+│ │ ├── backend.tf
+│ │ ├── main.tf
+│ │ ├── variables.tf
+│ │ └── test.tfvars
+│ │
+│ └── prod/
+│ ├── backend.tf
+│ ├── main.tf
+│ ├── variables.tf
+│ └── prod.tfvars
+│
+└── modules/
+└── ec2/
+├── main.tf
+├── variables.tf
+└── outputs.tf
+
+
+
+
 ## ☁️ AWS Resources Created
 
 - 🖥️ EC2 instances with tagging (`Name`, `Environment`, `ManagedBy`)
@@ -138,3 +171,5 @@ Imran Khan Mohammad
 🧠 DevOps Engineer | AWS | Terraform | Jenkins | Docker | Kubernetes
 📫 Connect with me:
 https://www.linkedin.com/in/imrankhanmohammad/
+
+
