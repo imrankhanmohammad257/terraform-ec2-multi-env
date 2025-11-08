@@ -1,5 +1,0 @@
-aws_region     = "us-east-1"
-ami_id         = "ami-0157af9aea2eef346"
-instance_type  = "t2.small"
-key_name       = "first_server1"
-environment    = "test"
