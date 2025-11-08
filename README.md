@@ -15,7 +15,7 @@ This Terraform setup follows a **modular and environment-based structure**:
 
 ## 📂 Folder Structure
 
----
+-
 terraform-ec2-multi-env/
 │
 ├── README.md
