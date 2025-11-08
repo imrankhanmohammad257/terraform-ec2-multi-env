@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket         = "company-terraform-states"
-    key            = "ec2/${var.environment}/terraform.tfstate"
+    bucket         = "imran-terraform-state-storage"
+    key            = "ec2/dev/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "terraform-lock"
     encrypt        = true

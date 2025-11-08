@@ -1,5 +1,6 @@
 aws_region     = "us-east-1"
 ami_id         = "ami-0157af9aea2eef346"
-instance_type  = "t2.small"
+instance_type  = "t3.medium"
 key_name       = "first_server1"
 environment    = "prod"
+name           = "prod-server"

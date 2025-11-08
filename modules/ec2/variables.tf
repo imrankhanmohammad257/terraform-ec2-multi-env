@@ -17,3 +17,8 @@ variable "key_name" {
   description = "SSH key to access EC2"
   type        = string
 }
+
+variable "name" {
+  description = "Name of the EC2 instance"
+  type        = string
+}
