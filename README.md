@@ -25,19 +25,19 @@ terraform-ec2-multi-env/
 │ │ ├── backend.tf
 │ │ ├── main.tf
 │ │ ├── variables.tf
-│ │ └── dev.tfvars
+│ │ └── terraform.tfvars
 │ │
 │ ├── test/
 │ │ ├── backend.tf
 │ │ ├── main.tf
 │ │ ├── variables.tf
-│ │ └── test.tfvars
+│ │ └── terraform.tfvars
 │ │
 │ └── prod/
 │ ├── backend.tf
 │ ├── main.tf
 │ ├── variables.tf
-│ └── prod.tfvars
+│ └── terraform.tfvars
 │
 └── modules/
 └── ec2/
