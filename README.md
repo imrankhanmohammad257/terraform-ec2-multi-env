@@ -12,7 +12,6 @@ This Terraform setup follows a **modular and environment-based structure**:
 - ☁️ **Remote State Management** — Terraform state stored in S3 and locked with DynamoDB
 - ⚙️ **Automation Ready** — Supports `terraform -chdir` for multi-environment CI/CD pipelines
 
----
 
 ## 📂 Folder Structure
 
@@ -44,42 +43,7 @@ terraform-ec2-multi-env/
 ├── main.tf
 ├── variables.tf
 └── outputs.tf
-
-
-
 ---
-
-## 📂 Folder Structure
-
-terraform-ec2-multi-env/
-├── README.md
-│
-├── envs/
-│ ├── dev/
-│ │ ├── backend.tf
-│ │ ├── main.tf
-│ │ ├── variables.tf
-│ │ └── dev.tfvars
-│ │
-│ ├── test/
-│ │ ├── backend.tf
-│ │ ├── main.tf
-│ │ ├── variables.tf
-│ │ └── test.tfvars
-│ │
-│ └── prod/
-│ ├── backend.tf
-│ ├── main.tf
-│ ├── variables.tf
-│ └── prod.tfvars
-│
-└── modules/
-└── ec2/
-├── main.tf
-├── variables.tf
-└── outputs.tf
-
-
 
 
 ## ☁️ AWS Resources Created
