@@ -44,7 +44,7 @@ terraform-ec2-multi-env/
 ├── main.tf
 ├── variables.tf
 └── outputs.tf
----
+
 
 
 ## ☁️ AWS Resources Created
